@@ -2,10 +2,9 @@ package com.example.user.my21_videop;
 
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.Toast;
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onPrepared(MediaPlayer mediaPlayer) {
 
                 Toast.makeText(MainActivity.this, "준비됨", Toast.LENGTH_SHORT).show();
-//sdfsdfsfdsdfsdf
+//sdfsdfsfdsdfsdf메메메메메메
             }
         });
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
