@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onPrepared(MediaPlayer mediaPlayer) {
 
                 Toast.makeText(MainActivity.this, "준비됨", Toast.LENGTH_SHORT).show();
-
+//sdfsdfsfdsdfsdf
             }
         });
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
